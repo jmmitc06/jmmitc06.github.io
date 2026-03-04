@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container home">
+    <div class="home-profile">
+      <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Joshua M. Mitchell" class="profile-photo">
+      <h1>Joshua M. Mitchell, M.D., Ph.D.</h1>
+      <p class="home-tagline">Computational scientist building algorithms at the intersection of clinical medicine, mass spectrometry, and AI.</p>
+      <p class="contact">
+        <span><a href="mailto:joshuamerrittmitchell@gmail.com">joshuamerrittmitchell@gmail.com</a></span>
+        <span><a href="https://linkedin.com/in/joshua-merritt-mitchell/">LinkedIn</a></span>
+      </p>
+    </div>
+    <nav class="home-nav">
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/skills' | relative_url }}">Skills</a>
+      <a href="{{ '/experience' | relative_url }}">Experience</a>
+      <a href="{{ '/projects' | relative_url }}">Projects</a>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <a href="{{ '/presentations' | relative_url }}">Presentations</a>
+      <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+      <a href="{{ '/awards' | relative_url }}">Awards</a>
+      <a href="{{ '/education' | relative_url }}">Education</a>
+      <a href="{{ '/other' | relative_url }}">Personal</a>
+    </nav>
+    {{ content }}
+    <footer>
+      &copy; 2026 Joshua M. Mitchell
+    </footer>
+  </div>
+</body>
+</html>
