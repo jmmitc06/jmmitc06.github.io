@@ -3,6 +3,12 @@ layout: default
 title: Presentations
 ---
 
+## Invited Talks
+
+Jones J, Suraj K and Mitchell JM. C.A.R.S.: Cellular Automaton Rafting Simulation. SIAM Annual Meeting; July 10, 2012; Minneapolis, MN.
+
+---
+
 ## Oral Presentations
 
 Mitchell JM, Chi Y, Thapa M, Li S. High-performance LC-MS metabolomics data processing using the Asari suite of tools. Metabolomics 2024; June 19, 2024; Osaka, Japan.
@@ -16,8 +22,6 @@ Mitchell JM. Biochemical phenotyping of null alleles in human induced pluripoten
 Mitchell JM. Filling our Knowledge Gaps in Metabolism to Secure Food and Biofuel Security. LANL "Science in 3" Competition; June 30, 2021; Los Alamos, NM. *Finalist.*
 
 Mitchell JM, Flight RM, Moseley HNB. Detection and Handling of Spectral Artefacts in Fourier Transform Mass Spectra of Metabolomics Experiments. U24 Data Visualization Meeting; March 14, 2017; virtual.
-
-Jones J, Suraj K and Mitchell JM. C.A.R.S.: Cellular Automaton Rafting Simulation. SIAM Annual Meeting; July 10, 2012; Minneapolis, MN.
 
 ---
 
